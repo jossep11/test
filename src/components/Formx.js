@@ -20,7 +20,7 @@ export default function Formx() {
           if (!valores.apellido) {
             errors.apellido = "Por favor ingrese un apellido";
           }
-
+          console.log("test");
           return errors;
         }}
         onSubmit={(valores, { resetForm }) => {
